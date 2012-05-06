@@ -1,0 +1,25 @@
+{
+	"scope": "source.python",
+
+	"completions":
+	[
+	// queryset
+		{ "trigger": "objects", "contents": "objects.all()"},
+		{ "trigger": "filter", "contents": "filter(${1:fileld}=$2)"},
+		{ "trigger": "exclude", "contents": "exclude(${1:fileld}=$2)"},
+		{ "trigger": "annotate", "contents": "annotate()"},
+		{ "trigger": "order_by", "contents": "order_by('$1')"},
+		{ "trigger": "reverse", "contents": "reverse()"},
+		{ "trigger": "distinct", "contents": "distinct()"},
+		{ "trigger": "values", "contents": "values()"},
+		{ "trigger": "values_list", "contents": "values_list('$1',)"},
+		{ "trigger": "get", "contents": "get('$1'=$2)"},
+		{ "trigger": "create", "contents": "create($1)"},
+		{ "trigger": "get_or_create", "contents": "$1, created = $2.objects.get_or_create($3)"},
+		{ "trigger": "bulk_create", "contents": "bulk_create([$1])"}
+		{ "trigger": "", "contents": ""}
+		{ "trigger": "", "contents": ""}
+		{ "trigger": "", "contents": ""}
+		{ "trigger": "", "contents": ""}
+	]
+}
