@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+qs = ${1:Model}.objects.all()
+]]></content>
+	<tabTrigger>djqs</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
