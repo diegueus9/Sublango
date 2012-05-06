@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:this}_CHOICES = (
+	(,),
+	(,),
+)
+]]></content>
+	<tabTrigger>djchoices</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
