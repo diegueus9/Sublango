@@ -74,6 +74,24 @@
 		{ "trigger": "Min", "contents": "Min('$1')"},
 		{ "trigger": "StdDev", "contents": "StdDev('$1')"},
 		{ "trigger": "Sum", "contents": "Sum('$1')"},
-		{ "trigger": "Variance", "contents": "Variance('$1')"}
+		{ "trigger": "Variance", "contents": "Variance('$1')"},
+		// urls
+		{ "trigger": "url", "contents": "url(r'$1', $2, name='$3')," },
+		// shortcuts
+		{ "trigger": "render", "contents": "render(request, $1)"},
+		{ "trigger": "render_to_response", "contents": "render_to_response('$1', $1, context_instance=RequestContext(request))"},
+		{ "trigger": "redirect", "contents": "redirect($1)"},
+		{ "trigger": "get_object_or_404", "contents": "get_object_or_404($1, $2)"},
+		{ "trigger": "get_list_or_404", "contents": "get_list_or_404($1, $2)"},
+		// decorators
+		{ "trigger": "require_http_methods", "contents": "@require_http_methods(['POST', 'GET'])"},
+		{ "trigger": "require_GET", "contents": "@require_GET()"},
+		{ "trigger": "require_POST", "contents": "@require_POST()"},
+		{ "trigger": "require_safe", "contents": "@require_safe()"},
+		// forms
+		{ "trigger": "is_bound", "contents": "is_bound"},
+		{ "trigger": "is_valid", "contents": "is_valid()"},
+		{ "trigger": "cleaned_data", "contents": "cleaned_data"},
+		{ "trigger": "", "contents": ""},
 	]
 }
