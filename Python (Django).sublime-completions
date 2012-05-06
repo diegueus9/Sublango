@@ -91,7 +91,6 @@
 		// forms
 		{ "trigger": "is_bound", "contents": "is_bound"},
 		{ "trigger": "is_valid", "contents": "is_valid()"},
-		{ "trigger": "cleaned_data", "contents": "cleaned_data"},
-		{ "trigger": "", "contents": ""},
+		{ "trigger": "cleaned_data", "contents": "cleaned_data"}
 	]
 }
