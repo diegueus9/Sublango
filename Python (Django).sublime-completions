@@ -3,7 +3,27 @@
 
 	"completions":
 	[
-	// queryset
+		// fields
+		{ "trigger": "null", "contents": "null=${1:False}"},
+		{ "trigger": "blank", "contents": "blank=${1:False}"},
+		{ "trigger": "choices", "contents": "choices=$1"},
+		{ "trigger": "db_column", "contents": "db_column='$1'"},
+		{ "trigger": "db_index", "contents": "db_index='$1'"},
+		{ "trigger": "db_tablespace", "contents": "db_tablespace='$1'"},
+		{ "trigger": "default", "contents": "default='$1'"},
+		{ "trigger": "editable", "contents": "editable=${1:True}"},
+		{ "trigger": "error_messages", "contents": "error_messages={'$1':$2}"},
+		{ "trigger": "help_text", "contents": "help_text='$1'"},
+		{ "trigger": "primary_key", "contents": "primary_key=True"},
+		{ "trigger": "unique", "contents": "unique=True"},
+		{ "trigger": "unique_for_date", "contents": "unique_for_date='$1'"},
+		{ "trigger": "verbose_name", "contents": "verbose_name='$1'"},
+		{ "trigger": "max_length", "contents": "max_length=$1"},
+		{ "trigger": "auto_now", "contents": "auto_now=True"},
+		{ "trigger": "auto_now_add", "contents": "auto_now_add=True"},
+		{ "trigger": "max_digits", "contents": "max_digits=$1"},
+		{ "trigger": "decimal_places", "contents": "decimal_places=$1"},
+		// queryset
 		{ "trigger": "objects", "contents": "objects.all()"},
 		{ "trigger": "filter", "contents": "filter(${1:fileld}=$2)"},
 		{ "trigger": "exclude", "contents": "exclude(${1:fileld}=$2)"},
@@ -16,10 +36,44 @@
 		{ "trigger": "get", "contents": "get('$1'=$2)"},
 		{ "trigger": "create", "contents": "create($1)"},
 		{ "trigger": "get_or_create", "contents": "$1, created = $2.objects.get_or_create($3)"},
-		{ "trigger": "bulk_create", "contents": "bulk_create([$1])"}
-		{ "trigger": "", "contents": ""}
-		{ "trigger": "", "contents": ""}
-		{ "trigger": "", "contents": ""}
-		{ "trigger": "", "contents": ""}
+		{ "trigger": "bulk_create", "contents": "bulk_create([$1])"},
+		{ "trigger": "count", "contents": "count()"},
+		{ "trigger": "in_bulk", "contents": "in_bulk([$1])"},
+		{ "trigger": "iterator", "contents": "iterator()"},
+		{ "trigger": "latest", "contents": "latest('$1')"},
+		{ "trigger": "aggregate", "contents": "aggregate($1)"},
+		{ "trigger": "exists", "contents": "exists()"},
+		{ "trigger": "update", "contents": "update($1)"},
+		{ "trigger": "delete", "contents": "delete()"},
+		// field lookups
+		{ "trigger": "exact", "contents": "$1__exact=$2"},
+		{ "trigger": "iexact", "contents": "$1__iexact=$2"},
+		{ "trigger": "contains", "contents": "$1__contains=$2"},
+		{ "trigger": "icontains", "contents": "$1__icontains=$2"},
+		{ "trigger": "in", "contents": "$1__in=$2"},
+		{ "trigger": "gt", "contents": "$1__gt=$2"},
+		{ "trigger": "gte", "contents": "$1__gte=$2"},
+		{ "trigger": "lt", "contents": "$1__lt=$2"},
+		{ "trigger": "lte", "contents": "$1__lte=$2"},
+		{ "trigger": "starswith", "contents": "$1__starswith=$2"},
+		{ "trigger": "istarswith", "contents": "$1__istarswith=$2"},
+		{ "trigger": "endswith", "contents": "$1__endswith=$2"},
+		{ "trigger": "iendswith", "contents": "$1__iendswith=$2"},
+		{ "trigger": "range", "contents": "$1__range=($2,$3)"},
+		{ "trigger": "year", "contents": "$1__year=$2"},
+		{ "trigger": "month", "contents": "$1__month=$2"},
+		{ "trigger": "day", "contents": "$1__day=$2"},
+		{ "trigger": "weekday", "contents": "$1__weekday=$2"},
+		{ "trigger": "isnull", "contents": "$1__isnull=${2:True}"},
+		{ "trigger": "regex", "contents": "$1__regex=r'$2'"},
+		{ "trigger": "iregex", "contents": "$1__iregex=r'$2'"},
+		// Aggregation functions
+		{ "trigger": "Avg", "contents": "Avg('$1')"},
+		{ "trigger": "Count", "contents": "Count('$1', distinct=${2:False})"},
+		{ "trigger": "Max", "contents": "Max('$1')"},
+		{ "trigger": "Min", "contents": "Min('$1')"},
+		{ "trigger": "StdDev", "contents": "StdDev('$1')"},
+		{ "trigger": "Sum", "contents": "Sum('$1')"},
+		{ "trigger": "Variance", "contents": "Variance('$1')"}
 	]
 }
