@@ -5,9 +5,9 @@ class ${1:model}(models.Model):
 	def __unicode__(self):
 		return u"".format(self)
 	
-	# @models.permalink
-	# def get_absolute_url(self):
-    # 	return ('', [str(self.id)])
+	#@models.permalink
+	#def get_absolute_url(self):
+	#	return ('', [str(self.id)])
 
 	class Meta:
 		ordering = ['id']
