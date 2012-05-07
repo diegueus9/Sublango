@@ -2,6 +2,6 @@
 	<content><![CDATA[
 ${1:charfield} = models.CharField(max_length=100, default="${2:default}", blank=True, null=True, verbose_name=_('${1:charfield}'))
 ]]></content>
-	<tabTrigger>djchardefault</tabTrigger> -->
+	<tabTrigger>CharField_default</tabTrigger> -->
 	<scope>source.python</scope>
 </snippet>
