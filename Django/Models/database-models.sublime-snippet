@@ -14,6 +14,6 @@ class ${1:model}(models.Model):
 		verbose_name = _('${1:model}')
 		verbose_name_plural = _ ('${1:model}s')
 ]]></content>
-	<tabTrigger>djmodel</tabTrigger>
+	<tabTrigger>Model</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
