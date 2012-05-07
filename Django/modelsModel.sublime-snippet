@@ -1,18 +1,7 @@
 <snippet>
 	<content><![CDATA[
 class ${1:model}(models.Model):
-
-	def __unicode__(self):
-		return u"".format(self)
-	
-	#@models.permalink
-	#def get_absolute_url(self):
-	#	return ('', [str(self.id)])
-
-	class Meta:
-		ordering = ['id']
-		verbose_name = _('${1:model}')
-		verbose_name_plural = _ ('${1:model}s')
+	pass
 ]]></content>
 	<tabTrigger>Model</tabTrigger>
 	<scope>source.python</scope>
