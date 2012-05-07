@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-${1:charfield} = models.CharField(max_length=100, blank=True, null=True, verbose_name=_('${1:charfield}'))
-]]></content>
-	<tabTrigger>djcharfield</tabTrigger> -->
-	<scope>source.python</scope>
-</snippet>
