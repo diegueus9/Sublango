@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+class Manager:
+	pass
+]]></content>
+	<tabTrigger>Manager</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
