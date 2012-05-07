@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.ForeignKey('${2:Model}')
+]]></content>
+	<tabTrigger>djforeignkey</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

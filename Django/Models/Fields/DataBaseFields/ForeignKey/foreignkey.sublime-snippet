@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-${1:name} = models.ForeignKey('${2:model}', on_delete=models.CASCADE, related_name='${1:name}s', blank=False, null=False, verbose_name=_('${1:name}'))
-]]></content>
-	<tabTrigger>djforeignkey</tabTrigger>
-	<scope>source.python</scope>
-</snippet>
