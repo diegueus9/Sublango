@@ -45,7 +45,7 @@
 		{ "trigger": "through", "contents": "through='$1'"},
 		{ "trigger": "parent_link", "contents": "parent_link=${1:True}"},
 		// managers
-		{ "trigger": "use_for_related_fields", "contents": "use_for_related_fields=${1:True}"},
+		{ "trigger": "use_for_related_fields", "contents": "use_for_related_fields = ${1:True}"},
 		// queryset
 		{ "trigger": "objects", "contents": "objects.all()"},
 		{ "trigger": "filter", "contents": "filter(${1:fileld}=$2)"},

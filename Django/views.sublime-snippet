@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+def ${1:view}(request):
+	data = {}
+	return render(request, '${2:template.html}', data)
+]]></content>
+	<tabTrigger>view</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
