@@ -3,6 +3,17 @@
 
 	"completions":
 	[
+		// meta
+		{ "trigger": "abstract", "contents": "abstract = True"},
+		{ "trigger": "verbose_name_meta", "contents": "verbose_name = '$1'"},
+		{ "trigger": "app_label", "contents": "app_label = '$1'"},
+		{ "trigger": "db_table", "contents": "db_table = '$1'"},
+		{ "trigger": "get_latest_by", "contents": "get_latest_by = '$1'"},
+		{ "trigger": "managed", "contents": "managed = ${1:False}"},
+		{ "trigger": "order_with_respect_to", "contents": "order_with_respect_to = '$1'"},
+		{ "trigger": "permissions", "contents": "permissions = ('$1',)"},
+		{ "trigger": "proxy", "contents": "proxy = ${1:True}"},
+		{ "trigger": "unique_together", "contents": "unique_together = (('$1','$2'),)"},
 		// fields
 		{ "trigger": "null", "contents": "null=${1:False}"},
 		{ "trigger": "blank", "contents": "blank=${1:False}"},

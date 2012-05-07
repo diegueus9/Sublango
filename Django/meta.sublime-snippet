@@ -3,6 +3,6 @@
 class Meta:
 	pass
 ]]></content>
-	<tabTrigger>Model</tabTrigger>
+	<tabTrigger>Meta</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
