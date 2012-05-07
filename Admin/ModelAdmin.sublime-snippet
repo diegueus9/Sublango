@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Model}Admin(admin.ModelAdmin):
+	pass
+
+admin.site.register(${1:Model}, ${1:Model}Admin)
+]]></content>
+	<tabTrigger>djModelAdmin</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
