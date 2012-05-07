@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.ManyToManyField('${2:Model_to}', through='${3:through}')
+
+class ${3:through}(models.Model):
+	${4:name2} = models.ForeignKey('${5:Model_from}')
+	${2:Model_to} = models.ForeignKey('${2:Model_to}')
+]]></content>
+	<tabTrigger>ManyToManyField_through</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
