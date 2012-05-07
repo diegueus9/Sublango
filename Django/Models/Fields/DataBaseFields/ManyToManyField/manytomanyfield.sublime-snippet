@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-${1:name} = models.ManyToManyField('${2:model}', related_name='${1:name}s', blank=True, null=True, verbose_name=_('${1:name}'))
-]]></content>
-	<tabTrigger>djmany</tabTrigger>
-	<scope>source.python</scope>
-</snippet>
