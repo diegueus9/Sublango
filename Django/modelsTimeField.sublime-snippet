@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.TimeField()
+]]></content>
+	<tabTrigger>TimeField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>

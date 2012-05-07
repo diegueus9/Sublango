@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.SlugField(max_length=${2:50})
+]]></content>
+	<tabTrigger>SlugField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>

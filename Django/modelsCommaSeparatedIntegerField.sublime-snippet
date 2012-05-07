@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.CommaSeparatedIntegerField(max_length=${2:20})
+]]></content>
+	<tabTrigger>CommaSeparatedIntegerField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>

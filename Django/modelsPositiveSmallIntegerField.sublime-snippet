@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.PositiveSmallIntegerField()
+]]></content>
+	<tabTrigger>PositiveSmallIntegerField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>

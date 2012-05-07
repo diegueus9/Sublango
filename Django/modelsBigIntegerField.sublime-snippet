@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.BigIntegerField()
+]]></content>
+	<tabTrigger>BigIntegerField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>

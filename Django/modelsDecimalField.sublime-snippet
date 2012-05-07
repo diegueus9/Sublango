@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:name} = models.DecimalField(max_digits=$1, decimal_places=$2)
+]]></content>
+	<tabTrigger>DecimalField</tabTrigger> -->
+	<scope>source.python</scope>
+</snippet>
