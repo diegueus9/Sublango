@@ -91,6 +91,24 @@
 		// forms
 		{ "trigger": "is_bound", "contents": "is_bound"},
 		{ "trigger": "is_valid", "contents": "is_valid()"},
-		{ "trigger": "cleaned_data", "contents": "cleaned_data"}
+		{ "trigger": "cleaned_data", "contents": "cleaned_data"},
+		// admin
+		{ "trigger": "date_hierarchy", "contents": "date_hierarchy = '$1'"},
+		{ "trigger": "exclude_admin", "contents": "exclude = ('$1',)"},
+		{ "trigger": "fields_admin", "contents": "fields = ('$1',)"},
+		{ "trigger": "list_display", "contents": "list_display = ('$1',)"},
+		{ "trigger": "list_display_links", "contents": "list_display_links = ('$1',)"},
+		{ "trigger": "list_editable", "contents": "list_editable = ('$1',)"},
+		{ "trigger": "list_max_show_all", "contents": "list_max_show_all = ${1:200}"},
+		{ "trigger": "list_per_page", "contents": "list_per_page = ${1:100}"},
+		{ "trigger": "ordering", "contents": "ordering = ('$1',)"},
+		{ "trigger": "prepopulated_fields", "contents": "prepopulated_fields = {'${1:slug}': ('$2',)}"},
+		{ "trigger": "radio_fields", "contents": "radio_fields = {'$1': admin.HORIZONTAL}"},
+		{ "trigger": "raw_id_fields", "contents": "raw_id_fields = ('$1',)"},
+		{ "trigger": "readonly_fields", "contents": "readonly_fields = ('$1',)"},
+		{ "trigger": "save_as", "contents": "save_as = ${1:True}"},
+		{ "trigger": "save_on_top", "contents": "save_on_top = ${1:True}"},
+		{ "trigger": "search_fields", "contents": "search_fields = ('$1',)"},
+		{ "trigger": "", "contents": ""},
 	]
 }
