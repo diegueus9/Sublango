@@ -5,6 +5,6 @@ ${1:this}_CHOICES = (
 	(,),
 )
 ]]></content>
-	<tabTrigger>djchoices</tabTrigger>
+	<tabTrigger>CHOICES</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
