@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Model}Form(ModelForm):
+	class Meta:
+		model = ${1:Model} 
+]]></content>
+	<tabTrigger>Form</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

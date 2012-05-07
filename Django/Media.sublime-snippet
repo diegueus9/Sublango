@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+class Media:
+	css = {
+		'$1': ('$2',)
+	}
+	js = ('$3',)
+]]></content>
+	<tabTrigger>Media</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
