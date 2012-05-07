@@ -108,7 +108,7 @@
 		{ "trigger": "readonly_fields", "contents": "readonly_fields = ('$1',)"},
 		{ "trigger": "save_as", "contents": "save_as = ${1:True}"},
 		{ "trigger": "save_on_top", "contents": "save_on_top = ${1:True}"},
-		{ "trigger": "search_fields", "contents": "search_fields = ('$1',)"},
-		{ "trigger": "", "contents": ""},
+		{ "trigger": "search_fields", "contents": "search_fields = ('$1',)"}
+		// { "trigger": "", "contents": ""}
 	]
 }
