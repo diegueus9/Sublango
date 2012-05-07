@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:charfield} = models.CharField(max_length=${2:100})
+${1:name} = models.CharField(max_length=${2:100})
 ]]></content>
 	<tabTrigger>CharField</tabTrigger> -->
 	<scope>source.python</scope>
