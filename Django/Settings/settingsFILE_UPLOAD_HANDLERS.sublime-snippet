@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+FILE_UPLOAD_HANDLERS = (
+	"django.core.files.uploadhandler.MemoryFileUploadHandler",
+	"django.core.files.uploadhandler.TemporaryFileUploadHandler",
+)
+]]></content>
+	<tabTrigger>_FILE_UPLOAD_HANDLERS</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
