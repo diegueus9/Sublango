@@ -4,6 +4,6 @@
 def get_absolute_url(self):
 	return ('$1', [$2])
 ]]></content>
-	<tabTrigger>get_absolute_url</tabTrigger>
+	<tabTrigger>_get_absolute_url</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
