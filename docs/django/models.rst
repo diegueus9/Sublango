@@ -37,9 +37,7 @@ There is a snippet for each field triggered by the name of field:
 * ImageField
 * IntegerField
 * IPAddressField
-* Manager
 * ManyToManyField
-* Model
 * NullBooleanField
 * OneToOneField
 * PositiveIntegerField
