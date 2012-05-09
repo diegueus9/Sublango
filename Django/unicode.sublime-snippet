@@ -3,6 +3,6 @@
 def __unicode__(self):
 	return u"{0.$1}".format(self)
 ]]></content>
-	<tabTrigger>unicode</tabTrigger>
+	<tabTrigger>_unicode</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
