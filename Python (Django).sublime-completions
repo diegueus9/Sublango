@@ -3,6 +3,9 @@
 
 	"completions":
 	[
+		// methods
+		{ "trigger": "get_absolute_url", "contents": "get_absolute_url()"},
+		{ "trigger": "save", "contents": "save()"},
 		// meta
 		{ "trigger": "abstract", "contents": "abstract = True"},
 		{ "trigger": "verbose_name_meta", "contents": "verbose_name = '$1'"},
@@ -15,14 +18,14 @@
 		{ "trigger": "proxy", "contents": "proxy = ${1:True}"},
 		{ "trigger": "unique_together", "contents": "unique_together = (('$1','$2'),)"},
 		// fields
-		{ "trigger": "null", "contents": "null=${1:False}"},
-		{ "trigger": "blank", "contents": "blank=${1:False}"},
+		{ "trigger": "null", "contents": "null=${1:True}"},
+		{ "trigger": "blank", "contents": "blank=${1:True}"},
 		{ "trigger": "choices", "contents": "choices=$1"},
 		{ "trigger": "db_column", "contents": "db_column='$1'"},
 		{ "trigger": "db_index", "contents": "db_index='$1'"},
 		{ "trigger": "db_tablespace", "contents": "db_tablespace='$1'"},
 		{ "trigger": "default", "contents": "default='$1'"},
-		{ "trigger": "editable", "contents": "editable=${1:True}"},
+		{ "trigger": "editable", "contents": "editable=${1:False}"},
 		{ "trigger": "error_messages", "contents": "error_messages={'$1':$2}"},
 		{ "trigger": "help_text", "contents": "help_text='$1'"},
 		{ "trigger": "primary_key", "contents": "primary_key=True"},
@@ -137,7 +140,7 @@
 		{ "trigger": "readonly_fields", "contents": "readonly_fields = ('$1',)"},
 		{ "trigger": "save_as", "contents": "save_as = ${1:True}"},
 		{ "trigger": "save_on_top", "contents": "save_on_top = ${1:True}"},
-		{ "trigger": "search_fields", "contents": "search_fields = ('$1',)"},
+		{ "trigger": "search_fields", "contents": "search_fields = ('$1',)"}
 		// settings
 		// { "trigger": "ABSOLUTE_URL_OVERRIDES", "contents": "ABSOLUTE_URL_OVERRIDES = {}"},
 		// { "trigger": "ADMIN_FOR", "contents": "ADMIN_FOR = ()"},
