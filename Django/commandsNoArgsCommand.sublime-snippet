@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+from django.core.management.base import NoArgsCommand
+
+class Command(NoArgsCommand):
+    help = "$1"
+
+    def handle_noargs(self, **options):
+        raise NotImplementedError()
+
+]]></content>
+	<tabTrigger>_NoArgsCommand</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
