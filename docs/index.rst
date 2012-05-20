@@ -15,4 +15,5 @@ Contents:
    installation
    django/index
    django/models
+   debug_toolbar/index
 

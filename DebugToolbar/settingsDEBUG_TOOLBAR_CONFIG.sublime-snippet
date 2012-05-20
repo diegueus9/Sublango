@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+def show_toolbar(request):
+    return True # Always show toolbar, for example purposes only.
+
+DEBUG_TOOLBAR_CONFIG = {
+    'ENABLE_STACKTRACES': True,
+    # 'EXTRA_SIGNALS': ['myproject.signals.MySignal'],
+    'HIDE_DJANGO_SQL': False,
+    'INTERCEPT_REDIRECTS': False,
+    'SHOW_TEMPLATE_CONTEXT': True,
+    'SHOW_TOOLBAR_CALLBACK': show_toolbar,
+    'TAG': 'div',
+}
+]]></content>
+	<tabTrigger>_DEBUG_TOOLBAR_CONFIG</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

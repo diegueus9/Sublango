@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+INTERNAL_IPS = ('127.0.0.1',)
+]]></content>
+	<tabTrigger>_INTERNAL_IPS</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
