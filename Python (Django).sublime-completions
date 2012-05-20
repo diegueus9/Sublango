@@ -131,6 +131,7 @@
 		{ "trigger": "list_display", "contents": "list_display = ('$1',)"},
 		{ "trigger": "list_display_links", "contents": "list_display_links = ('$1',)"},
 		{ "trigger": "list_editable", "contents": "list_editable = ('$1',)"},
+		{ "trigger": "list_filter", "contents": "list_filter = ('$1',)"},
 		{ "trigger": "list_max_show_all", "contents": "list_max_show_all = ${1:200}"},
 		{ "trigger": "list_per_page", "contents": "list_per_page = ${1:100}"},
 		{ "trigger": "ordering", "contents": "ordering = ('$1',)"},
