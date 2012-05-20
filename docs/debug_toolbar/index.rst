@@ -4,7 +4,7 @@ Django Debug Toolbar
 Settings
 --------
 
-Snippets for settings of `Django Debug Toolbar <https://github.com/django-debug-toolbar/django-debug-toolbar>`
+Snippets for settings of `Django Debug Toolbar <https://github.com/django-debug-toolbar/django-debug-toolbar>`_
 
 +-----------------------+-----------------------------------------------+
 | Trigger               | Snippet for                                   |
