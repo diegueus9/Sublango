@@ -2,7 +2,7 @@
 	<content><![CDATA[
 from  ${1:app}.models import  ${2:Model}
 
-class ${2:Model}Admin(admin.ModelAdmin):
+class ${2:Model}Admin(${3:admin.ModelAdmin}):
 	pass
 
 admin.site.register(${2:Model}, ${2:Model}Admin)
