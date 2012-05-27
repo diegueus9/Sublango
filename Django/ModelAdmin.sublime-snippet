@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-class ${1:Model}Admin(admin.ModelAdmin):
+from  ${1:app}.models import  ${2:Model}
+
+class ${2:Model}Admin(${3:admin.ModelAdmin}):
 	pass
 
-admin.site.register(${1:Model}, ${1:Model}Admin)
+admin.site.register(${2:Model}, ${2:Model}Admin)
 ]]></content>
 	<tabTrigger>djModelAdmin</tabTrigger>
 	<scope>source.python</scope>
